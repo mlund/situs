@@ -14,10 +14,16 @@
 #ifndef __LIB_SVTBASICS
 #define __LIB_SVTBASICS
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 #include "situs.h"
 #include "lib_err.h"
 #include "lib_vio.h"
 #include "lib_pio.h"
+#ifdef __cplusplus
+}
+#endif
 #include <cmath>
 #include <stack>
 #include <vector>

@@ -17,9 +17,19 @@
 
 #include "situs.h"
 #include "lib_mpt.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "lib_err.h"
 #include "lib_vio.h"
 #include "lib_pio.h"
+
+#ifdef __cplusplus
+}
+#endif
+
 #include <math.h>
 #include <iostream>
 #include <string.h>
