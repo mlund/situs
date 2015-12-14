@@ -1,4 +1,7 @@
 # Situs
+
+##### Note: This github version is an unofficial clone with support for the CMake build system.
+
 Situs - A program package for the docking of atomic structures to low-resolution data from electron microscopy and small angle x-ray scattering. 
 
 http://situs.biomachina.org
@@ -18,8 +21,6 @@ lib_pow.c
 lib_tim.c
 lib_rnd.c
 ~~~~
-
-### Note: This github version is an unofficial clone with support for the CMake build system.
 
 ## Requirements
 - C/C++ compiler
